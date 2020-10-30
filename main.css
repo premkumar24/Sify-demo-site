@@ -1,0 +1,95 @@
+
+  
+*{ /* applicable for the entire app */
+  font-family: Geneva, Verdana, sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+/* utilities CSS */
+.textLeft{
+  text-align: left;
+}
+.textCenter{
+  text-align: center;
+}
+
+
+footer{ 
+  text-align: center;
+  clear: both;
+}
+
+.logolink{
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.mainnav{
+  float: right;
+  margin-right: 20px;
+  margin-top: 8px;
+}
+.mainnav ul li{
+  display: inline;
+  margin-left: 10px;
+}
+.mainsection{
+  padding: 9px;
+  clear: both;
+  background-color: rgb(215 184 0); 
+  text-align: center;
+}
+.sidebar{
+  text-align: left;
+  float: left;
+  width: 200px;
+  background: #F5F5F5;
+  height: 131px;
+  padding: 15px;
+}
+
+.videowrapper{
+  width: 72%;
+  float: left;
+}
+
+.contactform, .mapsection{
+  float: left;
+  width: 49%;
+}
+
+label{
+  width: 120px;
+  display: inline-block;
+}
+
+input, textarea{
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid #2196F3;
+}
+
+.contactform .formfields{
+  padding: 10px 10px 10px 10px;
+}
+
+.contactformbtns{
+  margin-left: 135px;
+}
+
+button{
+  padding: 5px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 1px solid #607D8B;
+}
+
+/* attribute selector */
+[type='submit']{
+  background-color: rgb(163 0 0);
+  color: #fff;
+}
